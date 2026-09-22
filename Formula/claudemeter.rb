@@ -1,8 +1,8 @@
 class Claudemeter < Formula
   desc "Menu bar readout of your Claude extra-usage cap and burn-rate pace"
   homepage "https://github.com/andy-watanabe/claudmeter"
-  url "https://github.com/andy-watanabe/claudmeter/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "451cac83488ff134d7f6dbc2d5d3fee0928e2b4e343621edcb43f7edd62330e9"
+  url "https://github.com/andy-watanabe/claudmeter/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "813ae15c6fa4a421b13081882ba93cc27697431783580008dd8b9367e02f8e66"
 
   # Only swiftc (from the Xcode Command Line Tools) is required to build this --
   # not a full Xcode.app install. Homebrew itself already requires the Command
