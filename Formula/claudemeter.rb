@@ -4,8 +4,10 @@ class Claudemeter < Formula
   url "https://github.com/andy-watanabe/claudmeter/archive/refs/tags/v1.0.0.tar.gz"
   sha256 "451cac83488ff134d7f6dbc2d5d3fee0928e2b4e343621edcb43f7edd62330e9"
 
+  # Only swiftc (from the Xcode Command Line Tools) is required to build this --
+  # not a full Xcode.app install. Homebrew itself already requires the Command
+  # Line Tools to function, so no extra depends_on is needed for that.
   depends_on :macos
-  depends_on xcode: :build
 
   # Builds from source rather than shipping a prebuilt binary, same as this
   # tap's sibling install.sh: nothing to notarize, nothing for Gatekeeper to
